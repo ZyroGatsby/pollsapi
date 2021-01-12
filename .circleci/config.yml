@@ -33,6 +33,7 @@ jobs:
         command: |
         . venv/bin/activate
         cd pollsapi
+        export DJANGO_SETTINGS_MODULE=mysite.settings
         python manage.py test
     - store_artifacts:
         path: test-reports
