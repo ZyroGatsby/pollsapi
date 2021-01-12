@@ -9,10 +9,19 @@
 
 ### 🏠 [Homepage](https://github.com/ZyroGatsby/pollsapi/)
 
+## Prerequisite
+
+```sh
+python
+django>=2.2,
+pipenv
+```
+
 ## Install
 
 ```sh
-pipenv install -r requirements
+pipenv shell # Creates virtual environment
+pipenv install -r requirements # Installs required libraries
 ```
 
 ## Usage
