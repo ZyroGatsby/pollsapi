@@ -29,6 +29,7 @@ jobs:
         name: run tests
         command: |
           . venv/bin/activate
+          export DJANGO_SETTINGS_MODULE=core.settings 
           python3 manage.py test
     - store_artifacts:
         path: test-reports
