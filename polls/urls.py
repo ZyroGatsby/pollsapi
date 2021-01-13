@@ -15,4 +15,5 @@ urlpatterns = [
     path("polls/<int:pk>/choices/<int:choice_pk>/vote/", CreateVote.as_view(), name="create_vote")
 ]
 
+
 urlpatterns += router.urls
